@@ -1,0 +1,59 @@
+    .banner {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .navbar {
+        padding: 0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    
+    .collapse {
+        background: #173150;
+    }
+    
+    .nav-link {
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .navbar-brand {
+        width: 150px;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    
+    .navbar-brand img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .nav-item a {
+        color: #fff;
+    }
+    
+    .nav-item:hover {
+        background: #fed801;
+        border-radius: 10px;
+    }
+    
+    .nav-link a:hover {
+        color: #173150;
+    }
+    
+    @media (max-width: 576px) {}
+    
+    @media (max-width: 768px) {}
